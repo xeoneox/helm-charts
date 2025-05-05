@@ -4,6 +4,33 @@ entries:
   - annotations:
       charts.openshift.io/name: stackgres-operator
     apiVersion: v2
+    appVersion: 1.17.0-SNAPSHOT
+    created: "2025-05-05T16:38:42.680349516Z"
+    description: StackGres Operator
+    digest: 115c7c239461de7029f99696bb6c01ab69bed4176c2e7736b9a5fb64ea0a2737
+    home: https://stackgres.io
+    icon: https://gitlab.com/uploads/-/system/project/avatar/12584701/logo-stackgres.png?width=64
+    keywords:
+    - stackgres
+    - postgresql
+    - postgres
+    - cluster
+    - stack
+    - opinionated
+    kubeVersion: 1.18.0-0 - 1.33.x-O
+    maintainers:
+    - email: info@ongres.com
+      name: OnGres Inc.
+      url: https://ongres.com
+    name: stackgres-operator
+    sources:
+    - https://gitlab.com/ongresinc/stackgres
+    urls:
+    - https://github.com/xeoneox/helm-charts/releases/download/stackgres-operator-1.17.0-SNAPSHOT/stackgres-operator-1.17.0-SNAPSHOT.tgz
+    version: 1.17.0-SNAPSHOT
+  - annotations:
+      charts.openshift.io/name: stackgres-operator
+    apiVersion: v2
     appVersion: 1.16.1
     created: "2025-05-05T16:26:27.716591671Z"
     description: StackGres Operator
@@ -28,4 +55,4 @@ entries:
     urls:
     - https://github.com/xeoneox/helm-charts/releases/download/stackgres-operator-1.16.1/stackgres-operator-1.16.1.tgz
     version: 1.16.1
-generated: "2025-05-05T16:26:27.71660165Z"
+generated: "2025-05-05T16:38:42.680363562Z"
